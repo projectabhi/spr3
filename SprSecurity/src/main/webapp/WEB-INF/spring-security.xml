@@ -8,12 +8,16 @@
 
 	<http auto-config="true">
 		<intercept-url pattern="/admin**" access="ROLE_USER" />
+		<form-login login-page="/login" default-target-url="/admin"
+		authentication-failure-url="/login?error"/>
+		<logout logout-success-url="/login?logout"/>
+		<csrf/>
 	</http>
 
 	<authentication-manager>
 	  <authentication-provider>
 	    <user-service>
-		<user name="mkyong" password="123456" authorities="ROLE_USER" />
+		<user name="abhi" password="qwer4099" authorities="ROLE_USER" />
 	    </user-service>
 	  </authentication-provider>
 	</authentication-manager>

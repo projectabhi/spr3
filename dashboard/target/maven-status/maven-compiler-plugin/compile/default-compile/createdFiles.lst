@@ -1,0 +1,4 @@
+com/dashboard/web/controller/LoginController.class
+com/dashboard/web/controller/AdminPageController.class
+com/dashboard/service/MyUserDetailsService.class
+com/dashboard/web/controller/UserServiceController.class

@@ -1,0 +1,3 @@
+com/spr3/server/endpoints/SimpleController.class
+com/spr3/server/aspects/WatchAspect.class
+com/spr3/server/service/HelloBO.class
