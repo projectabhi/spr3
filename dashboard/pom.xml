@@ -52,6 +52,11 @@
 		    <artifactId>spring-security-core</artifactId>
 		    <version>${spring.security.version}</version>
 		</dependency>
+		<dependency>
+			<groupId>org.springframework</groupId>
+			<artifactId>spring-jdbc</artifactId>
+			<version>${spring.version}</version>
+		</dependency>
 		<!-- jstl for jsp page -->
 		<dependency>
 			<groupId>jstl</groupId>
@@ -72,7 +77,15 @@
 			<artifactId>jackson-mapper-asl</artifactId>
 			<version>${jackson.databind-version}</version>
 		</dependency>
+		
+		<!-- https://mvnrepository.com/artifact/org.mariadb.jdbc/mariadb-java-client -->
+		<dependency>
+		    <groupId>org.mariadb.jdbc</groupId>
+		    <artifactId>mariadb-java-client</artifactId>
+		    <version>2.0.3</version>
+		</dependency>
 	</dependencies>
+	
     <build>
     	<finalName>dashboard</finalName>
   	</build>
